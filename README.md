@@ -1,21 +1,21 @@
-# Motivations password
+# Motivations Generator
 
 # Overview
 
-Motivations Password is an inspiring web application designed to uplift and motivate users with meaningful quotes and affirmations. By generating a new quote each time the user presses a button, this application provides a constant source of positivity and encouragement.
+Motivations Generator is an inspiring web application designed to uplift and motivate users with meaningful quotes and affirmations. By generating a new quote each time the user presses a button, this application provides a constant source of positivity and encouragement.
 
 # Features
 
 . Instant Motivation:
 With a simple click of a button, users can instantly receive a new motivational quote or affirmation. This feature is perfect for starting the day on a positive note, overcoming challenges, or seeking inspiration.
 . Rich Collection of Quotes: 
-Motivations Password features a curated collection of motivational quotes and affirmations from various sources. Each quote is carefully selected to provide encouragement, empowerment, and a sense of purpose.
+Motivations Generator features a curated collection of motivational quotes and affirmations from various sources. Each quote is carefully selected to provide encouragement, empowerment, and a sense of purpose.
 . Elegant User Interface: 
 The application boasts a clean and user-friendly design. The quote is prominently displayed on the screen, accompanied by a visually appealing background that enhances the overall user experience.
 
 # Getting Started
 
-1. Clone the repository: git clone https://github.com/your-username/motivations-password.git
+1. Clone the repository: git clone https://github.com/your-username/motivations-generator.git
 2. Open index.html in your web browser.
 3. Click the "Get Motivated" button to receive a new quote.
 
@@ -41,7 +41,7 @@ The application boasts a clean and user-friendly design. The quote is prominentl
 
 # Contributions
 
-Contributions to the Motivations Password project are welcomed! Whether you have new quotes to add, design suggestions, or feature ideas, your input is valuable. Feel free to submit pull requests or open issues to contribute to the project's growth.
+Contributions to the Motivations Generator project are welcomed! Whether you have new quotes to add, design suggestions, or feature ideas, your input is valuable. Feel free to submit pull requests or open issues to contribute to the project's growth.
 
 # License
 
