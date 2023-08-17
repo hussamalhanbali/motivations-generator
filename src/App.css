@@ -1,0 +1,57 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+h3 {
+  padding-top: 25px ;
+  color: #a638f6;
+  font-size: 12px;
+}
+p {
+  color: white;
+  padding: 10px 20px;
+  font-size: 28px;
+}
+
+.Quote {
+  background-color: #2d2039;
+  width: 350px;
+  min-height: 1px;
+  border-radius: 25px;
+ 
+}
+.btn {
+ margin-bottom: 10px;
+ position: relative;
+ bottom: 40px;
+}
+.Logo {
+  margin-bottom: 15px;
+  padding-bottom: 40px;
+  color: white;
+}
+@media screen and (max-width: 375px) {
+    .logo1 {
+      position: absolute;
+      top: 20px;
+      left: 300px;
+      transform: translateX(-100%);
+      justify-content: center;
+    }
+    .Logo svg {
+      width: 0 auto;
+    }
+    .Quote {
+      width: 200px;
+      margin-top: 70px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+  .Quote {
+    width: 350px;
+    justify-content: center;
+  }
+}
