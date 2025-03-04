@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import axios from "axios";
+import quotesArray from "./api/api";
 import "./App.css";
 
 function App() {
@@ -9,13 +9,15 @@ function App() {
     fetchQuote();
   }, []);
 
-  const fetchQuote = async () => {
-    const response = await axios.get("https://api.quotable.io/random");
-    setQuote(response.data.content);
+  const fetchQuote = () => {
+    const randomIndex = Math.floor(Math.random() * quotesArray.length);
+    setQuote(quotesArray[randomIndex]);
   };
+
   const generateQuote = () => {
     fetchQuote();
   };
+
   return (
     <div className="App">
       <div className="Quote">
